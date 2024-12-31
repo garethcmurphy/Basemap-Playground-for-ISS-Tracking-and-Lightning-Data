@@ -1,87 +1,97 @@
-# globemaps
+# Basemap Playground for ISS Tracking and Lightning Data 🌍⚡  
 
-Map of the world
+This repository serves as a sandbox for experimenting with **Basemap** in **Matplotlib** to create world maps. It includes examples for plotting **ISS tracking data** and visualizing data from a **lightning database**.
 
-## Getting Started
+---
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Features ✨  
 
-### Prerequisites
+- **Basemap Integration**: Create visually appealing world maps.  
+- **ISS Tracking**: Plot the International Space Station's position on a global map.  
+- **Lightning Data Visualization**: Display lightning event data on maps.  
+- **Python-Based**: Built with Matplotlib for seamless data plotting.  
 
-What things you need to install the software and how to install them
+---
 
-```
-Give examples
-```
+## Prerequisites 🛠️  
 
-### Installing
+- Python 3.8+  
+- Required Python libraries:
+  - `matplotlib`
+  - `basemap`
+  - `numpy`
+  - `pandas`  
 
-A step by step series of examples that tell you have to get a development env running
+Install dependencies:  
+pip install matplotlib basemap numpy pandas  
 
-Say what the step will be
+---
 
-```
-Give the example
-```
+## Installation  
 
-And repeat
+1. Clone the repository:  
+git clone https://github.com/your-username/basemap-playground.git  
+cd basemap-playground  
 
-```
-until finished
-```
+2. Install required dependencies:  
+pip install -r requirements.txt  
 
-End with an example of getting some data out of the system or using it for a little demo
+---
 
-## Running the tests
+## Usage 🔧  
 
-Explain how to run the automated tests for this system
+1. **ISS Tracking Example**:  
+   Run the script to plot the ISS location:  
+   python plot_iss.py  
 
-### Break down into end to end tests
+2. **Lightning Data Example**:  
+   Visualize lightning events from a database:  
+   python plot_lightning.py --input lightning_data.csv  
 
-Explain what these tests test and why
+3. **Custom Maps**:  
+   Modify the scripts to create your own custom world maps and overlays.  
 
-```
-Give an example
-```
+---
 
-### And coding style tests
+## File Structure 📂  
 
-Explain what these tests test and why
+- `plot_iss.py`: Script for plotting ISS tracking data on a Basemap.  
+- `plot_lightning.py`: Script for visualizing lightning event data.  
+- `example_data/`: Directory containing example data files.  
+- `README.md`: Documentation for the repository.  
 
-```
-Give an example
-```
+---
 
-## Deployment
+## Example Commands  
 
-Add additional notes about how to deploy this on a live system
+- Plot ISS Tracking:  
+  python plot_iss.py  
 
-## Built With
+- Plot Lightning Data:  
+  python plot_lightning.py --input example_data/lightning.csv  
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+---
 
-## Contributing
+## Contributing 🤝  
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+1. Fork the repository.  
+2. Create a new branch:  
+git checkout -b feature/your-feature  
 
-## Versioning
+3. Commit your changes:  
+git commit -m "Add your feature"  
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+4. Push the branch:  
+git push origin feature/your-feature  
 
-## Authors
+5. Open a pull request.  
 
-* **Gareth Murphy** - *Initial work* - [garethcmurphy](https://github.com/garethcmurphy)
+---
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## License 📝  
 
-## License
+This project is licensed under the MIT License. See the LICENSE file for details.  
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+---
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+**Explore Basemap and create beautiful visualizations for ISS and lightning data!** 🌍⚡  
